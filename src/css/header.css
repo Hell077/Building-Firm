@@ -18,7 +18,7 @@ header {
     flex-direction: row;
     gap: 5px;
     margin-left: 709px;
-    width: fit-content;
+    width: max-content;
     height: fit-content;
 }
 
@@ -28,4 +28,12 @@ header {
     font-weight: 600;
     font-style: normal;
     color: #626270;
+}
+
+
+.center_right{
+    position: relative;
+    border: 1px solid;
+    width: fit-content;
+    height: fit-content;
 }

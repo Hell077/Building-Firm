@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client'
-import '/public/css/main.css'
-import '/public/css/header.css'
+import '/src/css/header.css'
+import '/src/css/main.css'
 import Header from './jsx/header'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
