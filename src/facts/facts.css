@@ -1,0 +1,149 @@
+.Facts {
+    position: relative;
+    width: 1900px;
+    height: 832px;
+    margin-top: 20px;
+}
+
+.Facts h1 {
+    position: absolute;
+    width: 920px;
+    height: 48px;
+    top: 14px;
+    left: 390px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Raleway;
+    font-size: 41px;
+    font-weight: 700;
+    line-height: 48.13px;
+    text-align: left;
+    color: #383736;
+}
+
+.heightxt {
+    position: absolute;
+    text-transform: uppercase;
+    width: 1007px;
+    height: 19px;
+    top: 67px;
+    left: 390px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+    text-align: left;
+}
+
+
+.rectangles {
+    position: relative;
+    width: 1120px;
+    height: fit-content;
+    top: 136px;
+    left: 390px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 57.5px;
+}
+
+#rec1 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+}
+
+#rec2,
+#rec3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0px;
+}
+
+.rectangle {
+    width: 350px;
+    height: 238px;
+    top: 136px;
+    left: 390px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background-color: #F7F6F2;
+}
+
+
+.p1 {
+    font-family: Raleway;
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 78.66px;
+    text-align: center;
+    color: #FCDB5C;
+    margin-top: 30px;
+}
+
+.p2 {
+    font-family: Raleway;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    color: #383736;
+}
+
+#rec1,
+#rec2,
+#rec3 {
+    transition: transform 0.3s ease-in-out;
+    /* Добавляем анимацию при изменении transform */
+}
+
+#rec1:hover,
+#rec2:hover,
+#rec3:hover {
+    transform: translateY(-5px);
+    /* Поднимаем контейнер вверх на 5 пикселей при наведении */
+}
+
+.dropdown {
+    position: absolute;
+    width: 1120px;
+    height: 390px;
+    top: 424px;
+    left: 390px;
+    gap: 10px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px, 0px;
+}
+
+.dropdown_assets {
+    display: flex;
+    gap: 0px 40px;
+    border-radius: 10px;
+    align-items: center;
+    width: 1120px;
+    height: 70px;
+    padding-left: 20px;
+    background-color: #F7F6F2;
+}
+
+.dropdown_assets img {
+    width: 24px;
+    height: 24px;
+}
+
+.dropdown_assets p {
+    font-family: Raleway;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 31.7px;
+    text-align: left;
+    color: #383736;
+}

@@ -1,4 +1,4 @@
-p {
+.HeaderP{
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -61,9 +61,6 @@ header {
 .first_item img, .second_item img , .center_txt img{
     padding-bottom: 24px;
 }
-
-   
-
 
 
 .right_obj{
