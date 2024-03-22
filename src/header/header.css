@@ -1,17 +1,36 @@
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #626270;
+}
+
 header {
     width: 100%;
     height: 145px;
     background-color: #ffffff;
     border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    position: relative;
 }
 
 .header_logo {
-    margin-top: 21px;
+    margin-bottom: 12px;
     margin-left: 309px;
     width: fit-content;
     height: fit-content;
+    position: absolute;
 }
 
+.center_right {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
 
 .center_txt {
     display: flex;
@@ -20,20 +39,35 @@ header {
     margin-left: 709px;
     width: max-content;
     height: fit-content;
+    padding-top: 10px;
 }
 
-
-.center_txt p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    color: #626270;
-}
-
-
-.center_right{
+.first_item p, .second_item p {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    text-align: left;
     position: relative;
-    border: 1px solid;
-    width: fit-content;
-    height: fit-content;
 }
+
+.first_item , .second_item {
+    display: flex;
+    gap: 5px;
+    
+}
+
+.first_item img, .second_item img , .center_txt img{
+    padding-bottom: 24px;
+}
+
+   
+
+
+
+.right_obj{
+    display: flex;
+    gap: 30px;
+}
+
