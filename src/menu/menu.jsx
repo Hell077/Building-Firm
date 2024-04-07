@@ -1,21 +1,18 @@
-import React from 'react';
 import './menu.css'
-class Menu extends React.Component {
-    state = {  }
-    render() { 
-        return ( 
-            <>
+
+const Menu = () => {
+    return (
+        <>
             <menu>
-                <button>СТРОИТЕЛЬСТВО</button>
-                <button>ПРОИЗВОДСТВО</button>
-                <button>ПРОЕКТИРОВАНИЕ</button>
-                <button>УСЛУГИ</button>
-                <button>ПАРТНЕРЫ</button>
-                <button>О КОМПАНИИ</button>
+                <button className="menu-button">СТРОИТЕЛЬСТВО</button>
+                <button className="menu-button">ПРОИЗВОДСТВО</button>
+                <button className="menu-button">ПРОЕКТИРОВАНИЕ</button>
+                <button className="menu-button">УСЛУГИ</button>
+                <button className="menu-button">ПАРТНЕРЫ</button>
+                <button className="menu-button">О КОМПАНИИ</button>
             </menu>
-            </>
-         );
-    }
+        </>
+    );
 }
- 
+
 export default Menu;

@@ -1,8 +1,5 @@
-import React from 'react';
 import './map.css'
-class Map extends React.Component {
-    state = {}
-    render() {
+const Map = () => {
         return (
             <>
                 <div className="map">
@@ -14,6 +11,6 @@ class Map extends React.Component {
             </>
         );
     }
-}
+
 
 export default Map;

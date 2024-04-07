@@ -100,50 +100,13 @@
 #rec2,
 #rec3 {
     transition: transform 0.3s ease-in-out;
-    /* Добавляем анимацию при изменении transform */
 }
 
 #rec1:hover,
 #rec2:hover,
 #rec3:hover {
     transform: translateY(-5px);
-    /* Поднимаем контейнер вверх на 5 пикселей при наведении */
 }
 
-.dropdown {
-    position: absolute;
-    width: 1120px;
-    height: 390px;
-    top: 424px;
-    left: 390px;
-    gap: 10px;
-    opacity: 0px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px, 0px;
-}
 
-.dropdown_assets {
-    display: flex;
-    gap: 0px 40px;
-    border-radius: 10px;
-    align-items: center;
-    width: 1120px;
-    height: 70px;
-    padding-left: 20px;
-    background-color: #F7F6F2;
-}
 
-.dropdown_assets img {
-    width: 24px;
-    height: 24px;
-}
-
-.dropdown_assets p {
-    font-family: Raleway;
-    font-size: 27px;
-    font-weight: 500;
-    line-height: 31.7px;
-    text-align: left;
-    color: #383736;
-}
