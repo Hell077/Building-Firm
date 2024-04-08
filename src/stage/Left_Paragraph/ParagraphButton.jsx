@@ -1,7 +1,6 @@
 import PropTypes from 'prop-types';
-import './stage.css'
 import { useState } from 'react';
-
+import s from './Left_P.module.css'
 
 const ParagraphButton = (props) => {
   const [isRectVisible, setRectVisible] = useState(false);
@@ -14,19 +13,18 @@ const ParagraphButton = (props) => {
 
   return (
     <>
-      <div className="main-button-container">
-        <button className={`${props.style} ${props.flex}`} onClick={toggleRectVisibility} style={{ backgroundColor: buttonColor }}>
-          <div className="button-container">
-            <div className="button-range">{props.range}</div>
-            <div className="button-text">{props.text}</div>
+      <div className={s.mainButtonContainer}>
+        <button className={`${props.style} ${props.flex}`} onClick={toggleRectVisibility} style={{ backgroundColor: buttonColor}}>
+          <div className={s.buttonContainer}>
+            <div className={s.buttonRange}>{props.range}</div>
+            <div className={s.buttonText}>{props.text}</div>
           </div>
         </button>
-        <div className="button-rect" style={{ display: isRectVisible ? 'block' : 'none' }}></div>
+        <div className={s.buttonRect} style={{ display: isRectVisible ? 'block' : 'none' }}></div>
       </div>
     </>
 
   )
-
 
 };
 ParagraphButton.propTypes = {

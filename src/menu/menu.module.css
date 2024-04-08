@@ -13,7 +13,7 @@ menu {
     z-index: 100;
 }
 
-.menu-button {
+.button {
     position: relative;
     color: #fff;
     border: none;
@@ -26,7 +26,7 @@ menu {
     text-align: center;
 }
 
-.menu-button:hover{
+.button:hover{
     color: #FCDB5C;
     text-decoration: underline;
 }

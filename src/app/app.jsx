@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Header from '../header/header';
 import Menu from '../menu/menu';
 import Map from '../map/map';
-import Facts from '../facts/facts';
+import Facts from '../facts/facts/facts';
 import Stage from '../stage/Stage';
 import Preloader from '../preloader/preloader';
 import './app.css';
@@ -14,7 +14,7 @@ export default function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 0);
   }, []);
 
   return (

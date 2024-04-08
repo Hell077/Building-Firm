@@ -1,0 +1,132 @@
+.buttonContainer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 40px;
+    width: fit-content;
+    height: fit-content;
+    overflow-y: hidden;
+    width: 100%;
+    margin-right: 15px;
+}
+
+.buttonRange {
+    font-size: 24px;
+    background: none;
+    overflow-y: hidden;
+    width: 35px;
+    height: 30px;
+    left: 0;
+}
+
+.buttonText {
+    font-size: 16px;
+}
+
+.mainButtonContainer {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.buttonRect{
+    display: block;
+    background-color: #2C2C32;
+    width: 30px;
+    height: 71px;
+    clip-path: polygon(50% 0, 100% 0, 50% 100%, 0% 100%);
+    margin-right: 0px;
+    transform: rotate(-0.5deg);
+}
+
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ParagraphContainer {
+    position: absolute;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0px;
+    top: 157px;
+    left: 235px;
+}
+
+
+.ParButton1,
+.ParButton2,
+.ParButton3,
+.ParButton4,
+.ParButton5,
+.ParButton6,
+.ParButton7,
+.ParButton8,
+.ParButton9,
+.ParButton10 {
+    height: 70px;
+    clip-path: polygon(0 0, 100% 0, 96% 100%, 0% 100%);
+    background-color: #F7F6F2;
+    border: none;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #787878;
+    display: flex;
+}
+
+
+
+.ParButton1 {
+    width: 452px;
+}
+
+.ParButton2 {
+    width: 352px;
+}
+
+.ParButton3 {
+    width: 320px;
+}
+
+.ParButton4 {
+    width: 325px;
+}
+
+.ParButton5 {
+    width: 286.5px;
+}
+
+.ParButton6,
+.ParButton7,
+.ParButton8,
+.ParButton9,
+.ParButton10 {
+    width: 306px;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.buttonRange {
+    width: 31px;
+    height: 28px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.18px;
+    text-align: left;
+}

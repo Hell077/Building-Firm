@@ -1,9 +1,9 @@
-import './List.css'
 import ListModule from './ListModule';
+import s from '../module/list.module.css'
 
 const TitleList = () => {
     return (
-        <div className="dropdown">
+        <div className={s.dropdown}>
             <ListModule title='Собственное производство металлоконструкций' />
             <ListModule title='Собственный отдел проектирования' />
             <ListModule title='Собственный отдел логистики и снабжения' />

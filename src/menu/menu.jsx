@@ -1,15 +1,15 @@
-import './menu.css'
+import s from'./menu.module.css'
 
 const Menu = () => {
     return (
         <>
             <menu>
-                <button className="menu-button">СТРОИТЕЛЬСТВО</button>
-                <button className="menu-button">ПРОИЗВОДСТВО</button>
-                <button className="menu-button">ПРОЕКТИРОВАНИЕ</button>
-                <button className="menu-button">УСЛУГИ</button>
-                <button className="menu-button">ПАРТНЕРЫ</button>
-                <button className="menu-button">О КОМПАНИИ</button>
+                <button className={s.button}>СТРОИТЕЛЬСТВО</button>
+                <button className={s.button}>ПРОИЗВОДСТВО</button>
+                <button className={s.button}>ПРОЕКТИРОВАНИЕ</button>
+                <button className={s.button}>УСЛУГИ</button>
+                <button className={s.button}>ПАРТНЕРЫ</button>
+                <button className={s.button}>О КОМПАНИИ</button>
             </menu>
         </>
     );
