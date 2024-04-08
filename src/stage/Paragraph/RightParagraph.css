@@ -1,0 +1,19 @@
+.Stage_Container{
+    display: flex;
+    position: relative;
+}
+
+.right_paragraph {
+    position: absolute;
+    top: 50%; 
+    right: 50px; 
+    transform: translateY(-50%); 
+    width: 1021px;
+    height: 790px;
+    background-color: #ffffff;
+    clip-path: polygon(39% 0, 100% 0%, 100% 100%, 0% 100%);
+    overflow-y: hidden;
+}
+
+
+

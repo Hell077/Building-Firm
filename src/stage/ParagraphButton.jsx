@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import './stage.css'
 import { useState } from 'react';
 
+
 const ParagraphButton = (props) => {
   const [isRectVisible, setRectVisible] = useState(false);
   const [buttonColor, setButtonColor] = useState('');
@@ -22,7 +23,6 @@ const ParagraphButton = (props) => {
         </button>
         <div className="button-rect" style={{ display: isRectVisible ? 'block' : 'none' }}></div>
       </div>
-
     </>
 
   )
