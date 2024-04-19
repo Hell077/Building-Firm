@@ -1,14 +1,21 @@
-import s from './RightParagraph.module.css';
+import styles from './RightParagraph.module.css';
+import PropTypes from 'prop-types';
 
-const RightParagraph = () => {
-    return (
-        <div className={s.right_paragraph}>
-            <img src="src\stage\Paragraph\Paragraph_image\side-view-old-architect-with-building-plans 1.svg" alt="" />
-           <div className={s.right_paragraph_yellow_small}></div>
-           <div className={s.right_paragraph_black}></div>
-           <div className={s.right_paragraph_yellow_small}></div>
+function RightParagraph( props ) {
+  return (
+    <div className={styles.right_paragraph}>
+        <div className={styles.yellow}></div>
+        <div className={styles.white}></div>
+        <div className={styles.black}>
+          <p className={styles.message}>{props.message}NULL</p>
         </div>
-    )
+      <img src="src/stage/Right_Paragraph/Paragraph_image/side-view-old-architect-with-building-plans 1.svg" alt="" className={styles.architect} />
+    </div>
+  );
 }
+
+RightParagraph.propTypes = {
+  message: PropTypes.string.isRequired, 
+};
 
 export default RightParagraph;

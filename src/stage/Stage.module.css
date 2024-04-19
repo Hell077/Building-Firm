@@ -5,6 +5,7 @@
     background-color: #ffffff;
     margin-top: 100px;
     border-top: 1px solid black;
+    overflow-y: hidden;
 }
 
 .Stage_h1 {
@@ -13,6 +14,11 @@
     height: 48px;
     top: 25px;
     left: 235px;
+}
+
+.Stage_Container{
+    width: fit-content;
+    height: fit-content;
 }
 
 .Stage_p1 {

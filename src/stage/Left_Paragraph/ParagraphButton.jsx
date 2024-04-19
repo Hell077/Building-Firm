@@ -1,37 +1,37 @@
+// Настройки кнопки вызываемые в paragraph.jsx
+
 import PropTypes from 'prop-types';
-import { useState } from 'react';
-import s from './Left_P.module.css'
+import styles from './Left_P.module.css'
 
-const ParagraphButton = (props) => {
-  const [isRectVisible, setRectVisible] = useState(false);
-  const [buttonColor, setButtonColor] = useState('');
-
-  const toggleRectVisibility = () => {
-    setRectVisible(!isRectVisible);
-    setButtonColor(isRectVisible ? '' : '#FCDB5C');
+function ParagraphButton({ range, style, flex, text, onClick, isActive }) {
+  const handleClick = () => {
+    onClick(range);
   };
 
   return (
-    <>
-      <div className={s.mainButtonContainer}>
-        <button className={`${props.style} ${props.flex}`} onClick={toggleRectVisibility} style={{ backgroundColor: buttonColor}}>
-          <div className={s.buttonContainer}>
-            <div className={s.buttonRange}>{props.range}</div>
-            <div className={s.buttonText}>{props.text}</div>
-          </div>
-        </button>
-        <div className={s.buttonRect} style={{ display: isRectVisible ? 'block' : 'none' }}></div>
-      </div>
-    </>
-
-  )
-
-};
-ParagraphButton.propTypes = {
-  range: PropTypes.string,
-  style: PropTypes.string,
-  flex: PropTypes.string,
-  text: PropTypes.string
+    <div className={styles.mainButtonContainer}>
+      <button
+        className={`${style} ${flex} ${isActive ? styles.active : ''}`}
+        onClick={handleClick}
+        style={{ backgroundColor: isActive ? '#FCDB5C' : '' }}
+      >
+        <div className={styles.buttonContainer}>
+          <div className={styles.buttonRange}>{range}</div>
+          <div className={styles.buttonText}>{text}</div>
+        </div>
+      </button>
+      <div className={styles.buttonRect} style={{ display: isActive ? 'block' : 'none' }}></div>
+       </div>
+  );
 }
+
+ParagraphButton.propTypes = {
+  range: PropTypes.string.isRequired,
+  style: PropTypes.string.isRequired,
+  flex: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
+  isActive: PropTypes.bool.isRequired,
+};
 
 export default ParagraphButton;

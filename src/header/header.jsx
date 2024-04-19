@@ -23,7 +23,7 @@ const Header = () => {
                             <img src="src\header\header_img\Globe 2.svg" alt="" />
                             <p className={s.HeaderP}>
                                 САЙТ КОМПАНИИ <br />
-                                 WWW.NEWTECK.RU
+                                WWW.NEWTECK.RU
                             </p>
                         </div>
                     </div>

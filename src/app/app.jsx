@@ -6,6 +6,7 @@ import Map from '../map/map';
 import Facts from '../facts/facts/facts';
 import Stage from '../stage/Stage';
 import Preloader from '../preloader/preloader';
+
 import './app.css';
 
 export default function App() {
@@ -14,7 +15,7 @@ export default function App() {
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
-    }, 0);
+    }, 10);
   }, []);
 
   return (
@@ -23,11 +24,11 @@ export default function App() {
         <Preloader />
       ) : (
         <>
-          <Header />
+          <Header/>
           <Menu />
           <Map />
           <Facts />
-          <Stage />
+          <Stage/>
         </>
       )}
     </div>
