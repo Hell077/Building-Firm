@@ -1,7 +1,7 @@
 // Paragraph.jsx
 import styles from './Left_P.module.css';
 import ParagraphButton from './ParagraphButton';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 
 function Paragraph({ handleMessageChange }) {
@@ -11,6 +11,13 @@ function Paragraph({ handleMessageChange }) {
         setActiveButton(newRange);
         handleMessageChange(newMessage); 
     };
+ useEffect(() => {handleMessageChange('Что то про разработку проектной документации и инженерные изыскания');});
+
+    
+        
+      
+
+ 
   
   return (
     <div className={styles.ParagraphContainer}>
