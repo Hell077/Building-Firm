@@ -4,8 +4,8 @@ import Paragraph from './Left_Paragraph/paragraph';
 import RightParagraph from './Right_Paragraph/RightParagraph';
 
 const Stage = () => {
-    // State to manage the message
     const [message, setMessage] = useState('');
+    const [title, setTitle] = useState('');
 
     // Function to update the message state
     const handleMessageChange = (newMessage) => {
@@ -17,8 +17,8 @@ const Stage = () => {
             <div className={style.Stage}>
                 <h1 className={style.Stage_h1}>Этапы строительства</h1>
                 <p className={style.Stage_p1}>Каждый этап выполняем своими силами</p>
-                <Paragraph handleMessageChange={handleMessageChange} />
-                <RightParagraph message={message} />
+                <Paragraph handleMessageChange={handleMessageChange} setTitle={setTitle} />
+                <RightParagraph message={message} title={title} />
             </div>
         </div>
     );
