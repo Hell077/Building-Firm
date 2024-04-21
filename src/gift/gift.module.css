@@ -1,0 +1,144 @@
+.Gift {
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    width: 1902px;
+    height: 1012px;
+    gap: 0px;
+    opacity: 0px;
+    background: url(./gift.Image/Background.svg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-color: #2C2C32;
+}
+
+.block {
+    width: 1450px;
+    height: 500px;
+    margin-top: 101px;
+    margin-left: 200px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #2C2C32;
+}
+
+.image {
+    width: 1380px;
+    height: 100%;
+    background: url(./gift.Image/blackBg.svg);
+}
+
+.shader {
+    width: 100%;
+    height: 100%;
+    background-color: #2c2c3259;
+}
+
+
+.yellow {
+    position: absolute;
+    background-color: #FCDB5C;
+    width: 396px;
+    height: 693px;
+    position: absolute;
+    width: 396px;
+    left: 1232px;
+    gap: 0px;
+    top: 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 150;
+}
+
+.first {
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 40px;
+    width: 252px;
+    color: #2C2C32;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.secondBlock {
+    width: 352px;
+    height: 115px;
+    background-color: #2C2C32;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blockTextTop {
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    color: #FCDB5C;
+    overflow: hidden;
+}
+
+
+.blockTextBottom {
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+    color: #FCDB5C;
+    overflow: hidden;
+}
+
+
+.third {
+    width: 339px;
+    height: 60px;
+    font-family: Raleway;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.four {
+    width: 319px;
+    height: 40px;
+    margin-top: 20px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+}
+
+.five {
+    width: 330px;
+    height: 44px;
+    font-family: Raleway;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.application {
+    width: 302.5px;
+    height: 70px;
+    margin-top: 70px;
+    color: white;
+    background-color: #2C2C32;
+    clip-path: polygon(13% 0, 100% 0, 89% 100%, 0 100%);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.13px;
+    text-align: center;
+    
+}

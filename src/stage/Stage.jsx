@@ -7,7 +7,6 @@ const Stage = () => {
     const [message, setMessage] = useState('');
     const [title, setTitle] = useState('');
 
-    // Function to update the message state
     const handleMessageChange = (newMessage) => {
         setMessage(newMessage);
     };

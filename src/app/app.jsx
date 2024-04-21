@@ -5,8 +5,9 @@ import Menu from '../menu/menu';
 import Map from '../map/map';
 import Facts from '../facts/facts/facts';
 import Stage from '../stage/Stage';
+import Gift from '../gift/gift';
 import Preloader from '../preloader/preloader';
-
+import PhotoBlock from '../photoblock/Photoblock';
 import './app.css';
 
 export default function App() {
@@ -29,6 +30,8 @@ export default function App() {
           <Map />
           <Facts />
           <Stage/>
+          <Gift/>
+          <PhotoBlock/>
         </>
       )}
     </div>
