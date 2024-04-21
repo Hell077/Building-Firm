@@ -18,6 +18,7 @@ const Stage = () => {
                 <p className={style.Stage_p1}>Каждый этап выполняем своими силами</p>
                 <Paragraph handleMessageChange={handleMessageChange} setTitle={setTitle} />
                 <RightParagraph message={message} title={title} />
+                
             </div>
         </div>
     );

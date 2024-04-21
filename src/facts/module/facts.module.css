@@ -1,7 +1,9 @@
 .Facts {
     position: relative;
     width: 1900px;
-    height: 832px;
+    min-height: 832px;
+    max-height: 1332px;
+    height: auto;
     margin-top: 20px;
 }
 

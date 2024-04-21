@@ -1,7 +1,7 @@
 .dropdown {
     position: absolute;
     width: 1120px;
-    height: fit-content;
+    height: auto;
     top: 1375px;
     left: 390px;
     gap: 10px;
@@ -36,4 +36,20 @@
     line-height: 31.7px;
     text-align: left;
     color: #383736;
+}
+
+
+.hide{
+    font-family: Raleway;
+    font-weight: 500;
+    line-height: 31px;
+    border: 1px solid;
+    border-bottom-left-radius: 10px;
+    border-radius: 10px;
+    padding-left: 50px;
+    background-color: #F7F6F2;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 999px;
 }

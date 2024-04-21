@@ -2,6 +2,7 @@
     position: relative;
     width: 1900px;
     height: 979px;
+    transition: height 0.3s ease;
     background-color: #ffffff;
     margin-top: 100px;
     overflow-y: hidden;
@@ -37,4 +38,3 @@
 .text {
     margin-left: 10px;
 }
-

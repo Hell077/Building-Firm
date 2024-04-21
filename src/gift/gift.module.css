@@ -3,7 +3,7 @@
     margin-top: 40px;
     display: flex;
     width: 1902px;
-    height: 1012px;
+    height: 912px;
     gap: 0px;
     opacity: 0px;
     background: url(./gift.Image/Background.svg);
@@ -140,5 +140,77 @@
     font-weight: 500;
     line-height: 21.13px;
     text-align: center;
-    
+
+}
+
+
+.textBlock {
+    margin-left: 90px;
+    margin-top: 70px;
+    width: 753px;
+    height: 129px;
+}
+
+
+.title {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.78px;
+    text-align: left;
+    color: #A1A1A1;
+    text-transform: uppercase;
+}
+
+hr {
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+.message {
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 39.92px;
+    text-align: left;
+    color: white;
+}
+
+.yellowTitle {
+    font-family: Raleway;
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 48.13px;
+    text-align: left;
+    color: #FCDB5C;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.grayMessage {
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: left;
+    color: #A1A1A1;
+    overflow: hidden;
+}
+
+.textBlock2 {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+
+.miniTitle {
+    margin-top: 20px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color:#A1A1A1;
 }

@@ -1,86 +1,106 @@
 .Stage_Container {
-    display: flex;
-    position: relative;
-    margin-top: 30px;
+  display: flex;
+  position: relative;
+  margin-top: 30px;
 }
 
 /* RightParagraph.module.css */
 
 .right_paragraph {
-    position: absolute;
-    width: 1021px;
-    height: fit-content;
-    top: 157px;
-    left: 642px;
-    overflow: hidden;
-  }
-  
-  .yellow {
-    position: absolute;
-    width: 912.88px;
-    height: 663.45px;
-    clip-path: polygon(20% 0, 95% 0, 75% 100%, 0 100%);
-    background-color: #FCDB5C;
-    left: 65px;
-    top: 130px;
-    z-index: 20;
-    overflow-y: hidden;
-  }
-  
-  .white {
-    position: absolute;
-    width: 912.88px;
-    height: 663.45px;
-    clip-path: polygon(20% 0, 95% 0, 75% 100%, 0 100%);
-    background-color: #ffffff;
-    left: 95px;
-    top: 130px;
-    z-index: 20;
-    overflow-y: hidden;
-  }
-  
-  .black {
-    position: absolute;
-    width: 912.88px;
-    height: 663.45px;
-    clip-path: polygon(20% 0, 95% 0, 75% 100%, 0 100%);
-    background-color: #2C2C32;
-    left: 100px;
-    top: 130px;
-    z-index: 20;
-    overflow-y: hidden;
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
-   
-  }
-  
-  .architect {
-    margin-top: 30px;
-    margin-left: 100px;
-    clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 99%);
-    z-index: 10;
-    overflow-y: hidden;
-  }
-  
-  .title{
-    font-family: Raleway;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: center; 
-    width: 400px;
-    color: white;
-  }
+  position: absolute;
+  width: 1021px;
+  height: fit-content;
+  top: 157px;
+  left: 642px;
+  overflow: hidden;
+}
 
-  .message {
-    font-family: Raleway;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    text-align: center; /* Center the text horizontally */
-    width: 400px;
-    color: white;
-    margin-top: 30px;
-  }
+.yellow {
+  position: absolute;
+  width: 912.88px;
+  height: 663.45px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  background-color: #FCDB5C;
+  left: 65px;
+  top: 50px;
+  z-index: 20;
+  overflow-y: hidden;
+}
+
+.white {
+  position: absolute;
+  width: 912.88px;
+  height: 663.45px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  background-color: #ffffff;
+  left: 95px;
+  top: 50px;
+  z-index: 20;
+  overflow-y: hidden;
+}
+
+.black {
+  position: absolute;
+  width: 912.88px;
+  height: 663.45px;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  background-color: #2C2C32;
+  left: 100px;
+  top: 50px;
+  z-index: 20;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.architect {
+  margin-top: 30px;
+  margin-left: 100px;
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 99%);
+  z-index: 10;
+  overflow-y: hidden;
+}
+
+.title {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  width: 400px;
+  color: white;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.message {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  width: 400px;
+  color: white;
+  margin-top: 30px;
+}
+
+
+.calculate {
+  position: absolute;
+  width: 302.5px;
+  height: 70px;
+  background-color: #FCDB5C;
+  margin-top: 662px;
+  margin-left: 530px;
+  z-index: 500;
+  clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+  border: none;
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.13px;
+  text-align: center;
+  text-transform: uppercase;
   
+}
+
