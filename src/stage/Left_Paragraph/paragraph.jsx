@@ -12,9 +12,11 @@ function Paragraph({ handleMessageChange, setTitle }) {
     };
 
     useEffect(() => {
-        handleMessageChange('Что-то про разработку проектной документации и инженерные изыскания');
+        handleMessageChange('Что-то про разработку проектной документации и инженерные изыскания',);
     }, []); 
-
+    useEffect(() => {
+      setTitle('Разработка проектной документации и инженерные изыскания');
+  }, []); 
  
   
   return (
