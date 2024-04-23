@@ -18,6 +18,7 @@ const ListModule = (props) => {
             {isOpen && (
                 <div className={s.dropdown_content}>
                     {props.children}
+                    
                 </div>
             )}
         </div>
